@@ -1,0 +1,61 @@
+\documentclass[a4paper,14pt]{article}
+\usepackage{blindtext}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{listings}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[14pt]{extsizes}
+\geometry{left=3cm}
+\geometry{right=1.5cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+\pagestyle{plain}
+\usepackage{pgfplots}
+\usepackage{filecontents}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\DeclareGraphicsExtensions{.png}
+\graphicspath{{images/}}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+\usepackage{tabularx}
+\pgfplotsset{width=7 cm}
+\usepackage{xcolor}
+%\renewcommand{\rmdefault}{ftm}
+%\usepackage{mathptmx}
+\usepackage{setspace}
+% \usepackage{minted}
+
+%\полуторный интервал
+\onehalfspacing
+\frenchspacing
+
+\usepackage{tocloft}
+\frenchspacing
+\setcounter{page}{2}
+
+\renewcommand{\cftsecdotsep}{\cftdot}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftsecdotsep}}
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftsecdotsep}}
+\renewcommand{\cftsubsubsecleader}{\cftdotfill{\cftsecdotsep}}
+
+\begin{document}
+\pgfplotsset{compat=1.17}
+
+
+\begin{figure}[!h]
+\center{\includegraphics[width=18cm]{1_1.jpg}}
+\label{fig:image}
+\end{figure}
+
+\begin{figure}[!h]
+    \center{\includegraphics[width=18cm]{1_2.jpg}}
+    \label{fig:image}
+    \end{figure}
+
+\end{document}
+
+\end{document}
